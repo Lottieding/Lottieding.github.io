@@ -1,0 +1,166 @@
+.banner h1 {
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  
+  .desktop-logo {
+    display: inline-block;
+    max-width: 300px;
+  }
+
+  .banner {
+    background-image: url("lone-starfish-wide.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .banner h1 {
+    color: rgb(243, 240, 240);
+  }
+
+  /* navigation */
+  .nav-list {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    list-style-type: none;
+    color: rgb(173, 167, 167);
+  }
+
+  .nav-list li {
+    flex: 1;
+    border: none;
+    color: rgb(173, 167, 167);
+  }
+
+  .nav-list li:last-child {
+    border: none;
+  }
+
+  .nav-list li {
+    border-right: 1px solid rgb(173, 167, 167);
+    text-align: center;
+  }
+  
+  /* LoVe HAte */
+  .nav-list a,
+  .nav-list a:link,
+  .nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+    text-decoration: rgb(173, 167, 167);
+  }
+  
+  .nav-list a:hover,
+  .nav-list a:focus,
+  .nav-list a.current {
+    background-color: rgb(49, 48, 48);
+  }
+
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h3 {
+    font-size: 45px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  .pfp {
+    width: 250px;
+    float: left;
+    padding: 10px;
+  }
+
+  p {
+    display: inline;
+  }
+
+
+
+html {
+  background-color: #aad4cf;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  background-color: #d4e9e7;
+}
+
+.main-nav {
+  background-color: #d4e9e7;
+  border: none;
+}
+
+.site-footer {
+  background-color: #d4e9e7;
+  padding: 1.5em 0;
+  
+}
+
+.container {
+	height: 359px;
+  margin: 0 auto;
+	width: 574px;
+	position: relative;
+}
+
+form { max-width:500px; border: rgb(173, 167, 167); }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: white;
+  border:2px solid gray;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:150%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid rgb(173, 167, 167); }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="send"] {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 12%;
+  background:none;
+  border-radius:5px;
+  border: 5px;
+  cursor:pointer;
+  color:gray;
+  font-size:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  font-weight:700;
+}
+[type="send"]:hover { background:#2c2c2c; }
